@@ -1,0 +1,18 @@
+pkgbase = chinese-fonts-meta
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	depends = noto-fonts-cjk
+	depends = adobe-source-han-sans-cn-fonts
+	depends = adobe-source-han-serif-cn-fonts
+	depends = wqy-zenhei
+	depends = wqy-microhei
+	depends = wqy-bitmapfont
+	depends = ttf-lxgw-wenkai
+	depends = ttf-lxgw-wenkai-mono
+	depends = ttf-arphic-ukai
+	depends = ttf-arphic-uming
+	depends = ttf-tw
+	depends = ttf-foundertype-sc-fonts
+
+pkgname = chinese-fonts-meta

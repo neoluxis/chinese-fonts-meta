@@ -1,0 +1,22 @@
+pkgname=chinese-fonts-meta
+pkgver=1.0
+pkgrel=1
+arch=('any')
+depends=(
+    noto-fonts-cjk # Google Noto CJK fonts
+    adobe-source-han-sans-cn-fonts # Adobe Source Han Sans Subset OTF - Simplified Chinese OpenType/CFF fonts
+    adobe-source-han-serif-cn-fonts # Adobe Source Han Serif Subset OTF - Simplified Chinese OpenType/CFF fonts
+    wqy-zenhei # 文泉驿 黑体
+    wqy-microhei # 黑体
+    wqy-bitmapfont # 宋体
+    ttf-lxgw-wenkai # 落霞孤鹜 文楷
+    ttf-lxgw-wenkai-mono # 落霞孤鹜 文楷等宽
+    ttf-arphic-ukai # 楷体
+    ttf-arphic-uming # 明体
+    ttf-tw # 台湾教育部发布的繁中楷体和宋体
+    ttf-foundertype-sc-fonts # 方正免费字体（方正书宋,方正仿宋,方正楷体,方正黑体）
+)
+package() {
+    echo $depends
+    mkdir -p "$pkgdir"
+}
