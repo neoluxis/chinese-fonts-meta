@@ -2,6 +2,7 @@
 *.pkg.tar.*
 .BUILDINFO
 .MTREE
+.PKGINFO
 
 pkg/
 src/
