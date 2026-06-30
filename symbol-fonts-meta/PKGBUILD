@@ -1,0 +1,19 @@
+pkgname=symbol-fonts-meta
+pkgver=1.0
+pkgrel=1
+arch=('any')
+depends=(
+    noto-fonts-emoji
+    ttf-nerd-fonts-symbols
+    ttf-nerd-fonts-symbols-common
+)
+
+package() {
+    echo "-----------------"
+    for i in "${!depends[@]}"; do
+        printf "%2d: %s\n" "$i" "${depends[$i]}"
+    done
+    echo "-----------------"
+    
+    mkdir -p "$pkgdir"
+}

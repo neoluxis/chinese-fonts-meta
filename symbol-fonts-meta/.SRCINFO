@@ -1,0 +1,9 @@
+pkgbase = symbol-fonts-meta
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	depends = noto-fonts-emoji
+	depends = ttf-nerd-fonts-symbols
+	depends = ttf-nerd-fonts-symbols-common
+
+pkgname = symbol-fonts-meta
