@@ -1,0 +1,20 @@
+pkgbase = texlive-meta
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	depends = texlive-basic
+	depends = texlive-bin
+	depends = texlive-binextra
+	depends = texlive-latex
+	depends = texlive-latexrecommended
+	depends = texlive-latexextra
+	depends = texlive-xetex
+	depends = texlive-luatex
+	depends = texlive-langchinese
+	depends = texlive-langcjk
+	depends = texlive-fontsrecommended
+	depends = texlive-mathscience
+	depends = texlive-pictures
+	depends = texlive-plaingeneric
+
+pkgname = texlive-meta

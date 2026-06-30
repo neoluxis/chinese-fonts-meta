@@ -1,0 +1,35 @@
+pkgname=texlive-meta
+pkgver=1.0
+pkgrel=1
+description="Meta package for texlive"
+arch=('any')
+depends=(
+    texlive-basic
+    texlive-bin
+    texlive-binextra
+
+    texlive-latex
+    texlive-latexrecommended
+    texlive-latexextra
+
+    texlive-xetex
+    texlive-luatex
+
+    texlive-langchinese
+    texlive-langcjk
+
+    texlive-fontsrecommended
+    texlive-mathscience
+    texlive-pictures
+    texlive-plaingeneric
+)
+
+package() {
+    echo "-----------------"
+    for i in "${!depends[@]}"; do
+        printf "%2d: %s\n" "$i" "${depends[$i]}"
+    done
+    echo "-----------------"
+    
+    mkdir -p "$pkgdir"
+}
