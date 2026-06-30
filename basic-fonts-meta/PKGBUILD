@@ -1,6 +1,7 @@
 pkgname=basic-fonts-meta
 pkgver=1.0
 pkgrel=1
+pkgdesc="Meta package for basic fonts"
 arch=('any')
 depends=(
     noto-fonts

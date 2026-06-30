@@ -1,6 +1,7 @@
 pkgname=symbol-fonts-meta
 pkgver=1.0
 pkgrel=1
+pkgdesc="Meta packages for symbol fonts"
 arch=('any')
 depends=(
     noto-fonts-emoji

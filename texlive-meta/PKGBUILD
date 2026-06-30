@@ -1,7 +1,7 @@
 pkgname=texlive-meta
 pkgver=1.0
 pkgrel=1
-description="Meta package for texlive"
+pkgdesc="Meta package for texlive"
 arch=('any')
 depends=(
     texlive-basic

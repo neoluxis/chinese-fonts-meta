@@ -1,7 +1,7 @@
 pkgname=chinese-fonts-meta
 pkgver=1.0
 pkgrel=1
-description="Meta package for chinese fonts"
+pkgdesc="Meta package for chinese fonts"
 arch=('any')
 depends=(
     noto-fonts-cjk # Google Noto CJK fonts
