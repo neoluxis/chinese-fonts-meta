@@ -12,7 +12,6 @@ pkgbase = chinese-fonts-meta
 	depends = ttf-lxgw-wenkai-mono
 	depends = ttf-arphic-ukai
 	depends = ttf-arphic-uming
-	depends = ttf-tw
 	depends = ttf-foundertype-sc-fonts
 
 pkgname = chinese-fonts-meta

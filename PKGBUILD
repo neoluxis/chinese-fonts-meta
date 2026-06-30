@@ -13,7 +13,7 @@ depends=(
     ttf-lxgw-wenkai-mono # 落霞孤鹜 文楷等宽
     ttf-arphic-ukai # 楷体
     ttf-arphic-uming # 明体
-    ttf-tw # 台湾教育部发布的繁中楷体和宋体
+    # ttf-tw # 台湾教育部发布的繁中楷体和宋体
     ttf-foundertype-sc-fonts # 方正免费字体（方正书宋,方正仿宋,方正楷体,方正黑体）
 )
 package() {
